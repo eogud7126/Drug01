@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ceeae9"
+    android:orientation="vertical"
+    tools:context="com.example.leedaehyung.drug01.MainActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="296dp"
+        android:layout_weight="1"
+        android:background="@drawable/top"
+        android:paddingLeft="20dp"
+        android:paddingTop="90dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:background="@android:color/darker_gray"
+        android:backgroundTint="#ceeae9"
+        android:orientation="horizontal"
+        android:paddingBottom="0dp"
+        android:paddingEnd="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingStart="0dp"
+        android:paddingTop="5dp">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/icon1"
+            android:fontFamily="@font/hoonjungle"
+            android:gravity="bottom|center_horizontal"
+            android:onClick="onSearchClick"
+            android:paddingBottom="15dp"
+            android:paddingEnd="0dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingStart="0dp"
+            android:paddingTop="0dp"
+            android:text="우리동네 병원찾기"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/icon2"
+            android:fontFamily="@font/hoonjungle"
+            android:gravity="bottom|center_horizontal"
+            android:onClick="onMyDrugClick"
+            android:paddingBottom="15dp"
+            android:paddingEnd="0dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingStart="0dp"
+            android:paddingTop="0dp"
+            android:text="약 알람 설정"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+</LinearLayout>
